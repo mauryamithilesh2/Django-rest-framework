@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
+    'background_jobs',
+    'background_task',
     'django_filters',
     'task',
     'house',
